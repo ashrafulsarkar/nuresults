@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Honours Results of the National University are seen on this website quickly and easily.">
+    <meta name="keywords" content="nuresult,nu result,nu 1st year result,nu 2nd year result,nu 3rd year result,nu 4th year result">
+    <meta name="author" content="Ashraful Sarkar">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>NU Honours Result</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo.png" type="image/gif" sizes="16x16">
+</head>
+<body>
+    <div class="container">
+        <header class="header-area">
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div class="site-name">
+                <h2>National University Honours Results</h2>
+            </div>
+        </header>
+        <div class="result-area">
+            <form id="getNuResult">
+                <div class="yearLabel dm">
+                    <label for="year">Honours Year:</label>
+                    <select id="year">
+                        <option value="select" selected>Select One</option>
+                        <option value="first">First Year</option>
+                        <option value="second">Second Year</option>
+                        <option value="third">Third Year</option>
+                        <option value="fourth">Forth Year</option>
+                        <option value="final">Consolidated</option>
+                    </select>
+                </div>
+                <div class="roll dm">
+                    <label for="roll">Exam. Roll:</label>
+                    <input type="number" id="roll">
+                </div>
+                <div class="reg dm">
+                    <label for="reg">Registraion:</label>
+                    <input type="number" id="reg">
+                </div>
+                <div class="year dm">
+                    <label for="exam_year">Exam. Year:</label>
+                    <input type="number" id="exam_year">
+                </div>
+                <div class="securityKey">
+                    <div class="captcha dm">
+                        <div class="refresh">
+                            <a href="javascript: refreshCaptcha();">refresh</a>
+                        </div>
+                        <div class="captchaimg">
+                            <img id="captchaimg" src="http://www.nu.ac.bd/results/captcha_code_file.php" alt="" />
+                        </div>
+                    </div>
+                    <div class="letterCode dm">
+                        <label for="letterCode">Security Key:</label>
+                        <input type="text" id="letterCode">
+                    </div>
+                </div>
+                <div class="getResult">
+                    <a href="javascript:result_show();">Get Result</a>
+                </div>
+            </form>
+        </div>
+        <footer class="footer-area">
+            <div class="copyRight">
+                <p>Design & Developed By <a href="http://www.facebook.com/ashraful.sarkar.58" target="_blank">Ashraful Sarkar.</a></p>
+            </div>
+        </footer>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
