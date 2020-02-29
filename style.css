@@ -96,13 +96,14 @@ label,
 }
 .dm {
     display: flex;
-    margin: 5px 0;
+    margin: 10px 0;
+    align-items: center;
 }
 select,
 input {
     width: 60%;
     font-size: 14px;
-    height: 25px;
+    height: 30px;
     display: block;
     color: #2e2e2e;
 }
@@ -161,7 +162,7 @@ input {
         font-size: 24px;
     }
 }
-@media (min-width: 401px) and (max-width: 599px) {
+@media (min-width: 408px) and (max-width: 599px) {
     .container {
         width: 390px;
     }
@@ -172,7 +173,7 @@ input {
         width: 190px;
     }
 }
-@media (min-width: 320px) and (max-width: 400px) {
+@media (min-width: 320px) and (max-width: 407px) {
     .container {
         width: 96%;
     }
