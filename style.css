@@ -106,6 +106,9 @@ input {
     height: 30px;
     display: block;
     color: #2e2e2e;
+    background: none;
+    border: 1px solid #b0b0b0;
+    border-radius: 3px;
 }
 .captcha {
     padding: 10px 0;
