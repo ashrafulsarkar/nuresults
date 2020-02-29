@@ -82,7 +82,7 @@ header.header-area {
 /* 3. result area */
 div.result-area {
     background: #fff;
-    padding: 50px 0;
+    padding: 45px 0;
     border-radius: 5px;
 }
 form#getNuResult {
@@ -111,9 +111,6 @@ input {
     border: 1px solid #b0b0b0;
     border-radius: 3px;
 }
-.captcha {
-    padding: 10px 0;
-}
 .refresh a {
     text-transform: capitalize;
     text-decoration: none;
@@ -138,6 +135,7 @@ input {
     border-radius: 4px;
     text-decoration: none;
     font-weight: 600;
+    display: inline-block;
 }
 /* 4. footer area */
 .footer-area {
