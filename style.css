@@ -189,6 +189,7 @@ input {
     .site-name h2 {
         font-size: 22px;
         margin-left: 12px;
+        margin-right: 15px;
     }
     .site-name h2::after {
         width: 170px;
