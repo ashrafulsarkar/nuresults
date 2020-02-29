@@ -85,12 +85,12 @@ div.result-area {
     border-radius: 5px;
 }
 form#getNuResult {
-    width: 290px;
+    width: 300px;
     margin: auto;
 }
 label,
 .refresh {
-    width: 35%;
+    width: 40%;
     display: block;
     color: #2e2e2e;
 }
@@ -100,7 +100,7 @@ label,
 }
 select,
 input {
-    width: 65%;
+    width: 60%;
     font-size: 14px;
     height: 25px;
     display: block;
@@ -120,7 +120,7 @@ input {
     font-weight: 600;
 }
 .captcha .captchaimg {
-    width: 65%;
+    width: 60%;
 }
 .getResult {
     text-align: center;
@@ -179,11 +179,15 @@ input {
     form#getNuResult {
     width: 88%;
     }
+    .logo {
+    margin-left: 20px;
+    }
     .site-name h2 {
-        font-size: 23px;
+        font-size: 22px;
+        margin-left: 12px;
     }
     .site-name h2::after {
-        width: 190px;
+        width: 170px;
     }
     label, .refresh {
     font-size: 16px;
