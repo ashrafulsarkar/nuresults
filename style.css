@@ -161,9 +161,9 @@ input {
         font-size: 24px;
     }
 }
-@media (min-width: 451px) and (max-width: 599px) {
+@media (min-width: 401px) and (max-width: 599px) {
     .container {
-        width: 400px;
+        width: 390px;
     }
     .site-name h2 {
         font-size: 24px;
@@ -172,9 +172,12 @@ input {
         width: 190px;
     }
 }
-@media (min-width: 320px) and (max-width: 450px) {
+@media (min-width: 320px) and (max-width: 400px) {
     .container {
-        width: 310px;
+        width: 96%;
+    }
+    form#getNuResult {
+    width: 88%;
     }
     .site-name h2 {
         font-size: 23px;
