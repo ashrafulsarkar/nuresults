@@ -22,46 +22,28 @@
             </div>
         </header>
         <div class="result-area">
-            <form id="getNuResult">
+            <form id="getNuResult" action="javascript:result_show()">
                 <div class="yearLabel dm">
                     <label for="year">Honours Year:</label>
                     <select id="year">
-                        <option value="select" selected>Select One</option>
+                        <option value="select" disabled selected>Select One</option>
                         <option value="first">First Year</option>
                         <option value="second">Second Year</option>
                         <option value="third">Third Year</option>
                         <option value="fourth">Forth Year</option>
-                        <option value="final">Consolidated</option>
                     </select>
                 </div>
                 <div class="roll dm">
-                    <label for="roll">Exam. Roll:</label>
+                    <label for="roll">Roll/Registraion:</label>
                     <input type="number" id="roll">
-                </div>
-                <div class="reg dm">
-                    <label for="reg">Registraion:</label>
-                    <input type="number" id="reg">
                 </div>
                 <div class="year dm">
                     <label for="exam_year">Exam. Year:</label>
                     <input type="number" id="exam_year">
                 </div>
-                <div class="securityKey">
-                    <div class="captcha dm">
-                        <div class="refresh">
-                            <a href="javascript: refreshCaptcha();">refresh</a>
-                        </div>
-                        <div class="captchaimg">
-                            <img id="captchaimg" src="http://www.nu.ac.bd/results/captcha_code_file.php" alt="" />
-                        </div>
-                    </div>
-                    <div class="letterCode dm">
-                        <label for="letterCode">Security Key:</label>
-                        <input type="text" id="letterCode">
-                    </div>
-                </div>
+                <div class="note">(Only see current year results.)</div>
                 <div class="getResult">
-                    <a href="javascript:result_show();">Get Result</a>
+                <input type="submit" value="Get Result">
                 </div>
             </form>
         </div>

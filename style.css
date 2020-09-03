@@ -3,7 +3,7 @@
   Author: Ashraful Sarkar
   Support: ashrafulsarkar47@gmail.com
   Description: Honours Results of the National University are seen on this website quickly and easily.
-  Version: 1.0
+  Version: 2.0.0
 */
 
 /* CSS Index 
@@ -89,8 +89,7 @@ form#getNuResult {
     width: 300px;
     margin: auto;
 }
-label,
-.refresh {
+label {
     width: 40%;
     display: block;
     color: #2e2e2e;
@@ -111,31 +110,25 @@ input {
     border: 1px solid #b0b0b0;
     border-radius: 3px;
 }
-.refresh a {
-    text-transform: capitalize;
-    text-decoration: none;
-    padding: 6px 15px;
-    display: inline-block;
-    background: #c82e2e;
-    color: #fff;
-    border-radius: 4px;
-    font-weight: 600;
-}
-.captcha .captchaimg {
-    width: 60%;
+.note {
+    float: right;
+    font-size: 14px;
+    color: #656565;
 }
 .getResult {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 50px;
 }
-.getResult a {
+.getResult input {
     background: green;
     color: #fff;
-    padding: 10px 20px;
     border-radius: 4px;
     text-decoration: none;
     font-weight: 600;
     display: inline-block;
+    height: 40px;
+    width: 120px;
+    border: none;
 }
 /* 4. footer area */
 .footer-area {
