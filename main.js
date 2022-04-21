@@ -23,7 +23,7 @@ function result_show() {
     }
     else{
         //var url = 'http://www.nubd.info/res_hon/' + selectedValue + '_year_result_show.php?roll_number=' + roll_number + '&exam_year=' + exam_year;
-      var url = 'https://www.nu.ac.bd/results_lastest/result_show.php?reg_no='+roll_number+'&exm_code=2201&exam_year='+exam_year;
+      var url = 'https://www.nu.ac.bd/results_lastest/result_show.php?reg_no='+roll_number+'&exm_code='+selectedValue+'&exam_year='+exam_year;
       
         window.open(url, '_blank', 'height=750,width=780,left=130, top=5,resizable=yes, scrollbars');
     }
